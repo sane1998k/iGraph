@@ -134,6 +134,14 @@ function getBuild() {
       rangeSelector: {
          selected: 1
       },
+      credits: {
+         text: 'автоматика-м',
+         href: 'javascript:window.open("http://prom-service.org", "_blank")',
+         target: "_blank",
+         style: {
+            fontSize: '15px'
+         }
+      },
       title: {
          text: 'Линейный график ошибок'
       },
